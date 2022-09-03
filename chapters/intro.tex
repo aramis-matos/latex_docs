@@ -1,6 +1,24 @@
 \section{Antecedentes}
 \addcontentsline{toc}{section}{Antecedentes}
 
+Primero que todo, es necesario conocer un poco acerca de la terminología que se utiliza en el espacio de los video juegos de pelea. Por lo general, los juegos de pelea se juegan con dos jugadores que se atacan con ciertas movidas. Estas movidas consumen un tiempo particular en completar. A continuación se presenta una lista definiendo términos importantes:
+\begin{itemize}
+    \item Movida que un jugador seleccionó (move)
+    \item \gls{startup}
+    \item \gls{active}
+    \item \gls{recovery}
+    \item \gls{blockstun}
+    \item \gls{on_block}
+\end{itemize}
+
+\gls{frame_data} son particulares para cada movida de un personaje. A consecuencia de esto, es posible que algunas movidas sean mas rápidas que otras. Este dato es importante a la hora de calcular la ventaja que tiene una movida contra otra. 
+
+Vamos asumir que hay una movida $A$ que tiene $25$ \gls{startup}, $3$ \gls{active}, $30$ \gls{recovery} y $-14$ \gls{on_block} y una movida $B$ que tiene $7$ \gls{startup}, $3$ \gls{active}, $6$ \gls{recovery} y $+3$ \gls{on_block}. Si el personaje de la movida $A$ ataca al personaje de la movida $B$ pero el personaje de la movida $B$ bloquea la movida, ahora el personaje $A$ experimenta \gls{recovery}. Ahora, el personaje de la movida $A$ no puede hacer nada por $30$ frames. Al solo tener $16$ frames de \gls{blockstun}, el personaje de la movida $A$ experimenta $14$ que no puede hacer nada pero puede ser atacado. A este estado se le llama desventaja. Al mismo tiempo, el personaje de la movida $B$ tiene 14 frames para hacer lo que quiera. Como su movida solo se tarda $7$ frames en salir, puede atacar al personaje de la movida $A$ sin miedo de ser atacado.
+
+El cálculo de ventaja de "frame data", por lo general, ha sido una tarea que se hace a mano. Esto se debe a que los números involucrados son pequeños por lo general y por ende, no se ha necesitado una gran cantidad de recursos computacionales. Sin embargo, con la avenida de  E-sports \cite{willingham_what_2018}, se ha visto una necesidad de conocer estados de ventaja rápida y efectivamente.
+
+Como
+
 \section{Objetivos}
 \addcontentsline{toc}{section}{Objetivos}
 
