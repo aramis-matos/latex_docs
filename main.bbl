@@ -1,0 +1,41 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+{Dustloop}%
+}{%
+{Dustloop}%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+dustloop_using_2022}
+\APACinsertmetastar {%
+dustloop_using_2022}%
+\begin{APACrefauthors}%
+{Dustloop}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{08}}}{}.
+\newblock
+\APACrefbtitle {Using {{Frame Data}}.} {Using {{Frame Data}}.}
+\newblock
+\APAChowpublished {https://www.dustloop.com/w/Using\_Frame\_Data}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {The {{Fighting Game Glossary}} | Infil.Net}}{%
+\APACcitebtitle {The {{Fighting Game Glossary}} | Infil.Net}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+noauthor_fighting_nodate}
+\APACinsertmetastar {%
+noauthor_fighting_nodate}%
+\APACrefbtitle {The {{Fighting Game Glossary}} | Infil.Net.} {The {{Fighting
+  Game Glossary}} | infil.net.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APAChowpublished {https://glossary.infil.net/?t=Health\%20Bar}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
