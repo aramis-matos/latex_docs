@@ -167,9 +167,9 @@ noauthor_guilty_2022}%
   }{{\emph{Strike}}}}}{%
 {\protect \APACyear {{\protect \bibnodate {}}}}%
 }]{%
-noauthor_street_2022-2}
+noauthor_street_2022}
 \APACinsertmetastar {%
-noauthor_street_2022-2}%
+noauthor_street_2022}%
 \APACrefbtitle {\emph{Street }{{\emph{Fighter III}}}\emph{: 3rd
   }{{\emph{Strike}}}.} {\emph{Street }{{\emph{Fighter III}}}\emph{: 3rd
   }{{\emph{Strike}}}.}
@@ -204,9 +204,9 @@ noauthor_street_2022-1}%
 \APACcitebtitle {\emph{Street }{{\emph{Fighter V}}}}}{%
 {\protect \APACyear {{\protect \bibnodate {}}}}%
 }]{%
-noauthor_street_2022}
+noauthor_street_2022-2}
 \APACinsertmetastar {%
-noauthor_street_2022}%
+noauthor_street_2022-2}%
 \APACrefbtitle {\emph{Street }{{\emph{Fighter V}}}.} {\emph{Street
   }{{\emph{Fighter V}}}.}
 \newblock
@@ -252,7 +252,7 @@ noauthor_fighting_nodate-1}%
 \APACrefYearMonthDay{{\protect \bibnodate {}}{\protect \BCntND {1}}}{}{}.
 \newblock
 \begin{APACrefURL}
-  [{2022-09-10}]\url{https://glossary.infil.net/?t=Frame%20Data}
+  [{2022-09-10}]\url{https://glossary.infil.net/?t=Health%20Bar}
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
@@ -270,7 +270,7 @@ noauthor_fighting_nodate-2}%
 \APACrefYearMonthDay{{\protect \bibnodate {}}{\protect \BCntND {2}}}{}{}.
 \newblock
 \begin{APACrefURL}
-  [{2022-09-10}]\url{https://glossary.infil.net/?t=Health%20Bar}
+  [{2022-09-10}]\url{https://glossary.infil.net/?t=Frame%20Data}
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 

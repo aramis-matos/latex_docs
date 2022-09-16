@@ -1,16 +1,16 @@
-This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2022/Arch Linux)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: apacite.bst
-Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated glb_str_ptr (elt_size=8) to 20 items from 10.
 Reallocated global_strs (elt_size=200001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=4) to 20 items from 10.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_end (elt_size=8) to 20 items from 10.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated wiz_functions (elt_size=8) to 6000 items from 3000.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated wiz_functions (elt_size=8) to 9000 items from 6000.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
 Database file #1: References.bib
 Warning--entry type for "aramis-matos_skybounddb_2022" isn't style-file defined
 --line 2 of file References.bib
@@ -19,33 +19,33 @@ Warning--entry type for "core-a_gaming_analysis_2019" isn't style-file defined
 Warning--entry type for "d4rkonion_fat_2022" isn't style-file defined
 --line 23 of file References.bib
 Warning--entry type for "dustloop_using_2022" isn't style-file defined
---line 33 of file References.bib
-Warning--entry type for "noauthor_fighting_nodate" isn't style-file defined
 --line 44 of file References.bib
+Warning--entry type for "noauthor_fighting_nodate" isn't style-file defined
+--line 55 of file References.bib
 Warning--entry type for "noauthor_fighting_nodate-1" isn't style-file defined
---line 51 of file References.bib
+--line 62 of file References.bib
 Warning--entry type for "noauthor_fighting_nodate-2" isn't style-file defined
---line 58 of file References.bib
+--line 69 of file References.bib
 Warning--entry type for "noauthor_granblue_2022" isn't style-file defined
---line 65 of file References.bib
+--line 82 of file References.bib
 Warning--entry type for "noauthor_grasshopper_nodate" isn't style-file defined
---line 77 of file References.bib
+--line 94 of file References.bib
 Warning--entry type for "noauthor_guide_nodate" isn't style-file defined
---line 88 of file References.bib
+--line 105 of file References.bib
 Warning--entry type for "noauthor_guilty_2022" isn't style-file defined
---line 95 of file References.bib
+--line 112 of file References.bib
 Warning--entry type for "noauthor_rubendalssbu-calculator_nodate" isn't style-file defined
---line 107 of file References.bib
+--line 124 of file References.bib
 Warning--entry type for "noauthor_street_2022" isn't style-file defined
---line 121 of file References.bib
+--line 155 of file References.bib
 Warning--entry type for "noauthor_street_2022-1" isn't style-file defined
---line 133 of file References.bib
+--line 168 of file References.bib
 Warning--entry type for "noauthor_street_2022-2" isn't style-file defined
---line 145 of file References.bib
+--line 180 of file References.bib
 Warning--entry type for "noauthor_super_2022" isn't style-file defined
---line 158 of file References.bib
+--line 192 of file References.bib
 Warning--entry type for "willingham_what_2018" isn't style-file defined
---line 182 of file References.bib
+--line 245 of file References.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 You've used 17 entries,
             6951 wiz_defined-function locations,
