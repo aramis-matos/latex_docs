@@ -1,0 +1,13 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#character_header {
+    top: 0;
+    background-color: #4c7cbc;
+    padding-bottom: 15px;
+}
