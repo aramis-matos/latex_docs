@@ -1,91 +1,56 @@
-This is BibTeX, Version 0.99d (TeX Live 2022/Arch Linux)
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: apacite.bst
-Reallocated glb_str_ptr (elt_size=8) to 20 items from 10.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=200001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=8) to 20 items from 10.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated wiz_functions (elt_size=8) to 6000 items from 3000.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated wiz_functions (elt_size=8) to 9000 items from 6000.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: References.bib
-Warning--entry type for "aramis-matos_skybounddb_2022" isn't style-file defined
---line 2 of file References.bib
-Warning--entry type for "core-a_gaming_analysis_2019" isn't style-file defined
---line 13 of file References.bib
-Warning--entry type for "d4rkonion_fat_2022" isn't style-file defined
---line 23 of file References.bib
-Warning--entry type for "dustloop_using_2022" isn't style-file defined
---line 44 of file References.bib
-Warning--entry type for "noauthor_fighting_nodate" isn't style-file defined
---line 55 of file References.bib
-Warning--entry type for "noauthor_fighting_nodate-1" isn't style-file defined
---line 62 of file References.bib
-Warning--entry type for "noauthor_fighting_nodate-2" isn't style-file defined
---line 69 of file References.bib
-Warning--entry type for "noauthor_granblue_2022" isn't style-file defined
---line 82 of file References.bib
-Warning--entry type for "noauthor_grasshopper_nodate" isn't style-file defined
---line 94 of file References.bib
-Warning--entry type for "noauthor_guide_nodate" isn't style-file defined
---line 105 of file References.bib
-Warning--entry type for "noauthor_guilty_2022" isn't style-file defined
---line 112 of file References.bib
-Warning--entry type for "noauthor_rubendalssbu-calculator_nodate" isn't style-file defined
---line 124 of file References.bib
-Warning--entry type for "noauthor_street_2022" isn't style-file defined
---line 155 of file References.bib
-Warning--entry type for "noauthor_street_2022-1" isn't style-file defined
---line 168 of file References.bib
-Warning--entry type for "noauthor_street_2022-2" isn't style-file defined
---line 180 of file References.bib
-Warning--entry type for "noauthor_super_2022" isn't style-file defined
---line 192 of file References.bib
-Warning--entry type for "willingham_what_2018" isn't style-file defined
---line 245 of file References.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 17 entries,
+You've used 18 entries,
             6951 wiz_defined-function locations,
-            1331 strings with 13099 characters,
-and the built_in function-call counts, 25443 in all, are:
-= -- 3917
-> -- 63
-< -- 750
-+ -- 651
+            1325 strings with 12575 characters,
+and the built_in function-call counts, 22711 in all, are:
+= -- 2966
+> -- 62
+< -- 836
++ -- 715
 - -- 22
-* -- 1216
-:= -- 3237
-add.period$ -- 57
-call.type$ -- 17
-change.case$ -- 57
+* -- 1274
+:= -- 3654
+add.period$ -- 69
+call.type$ -- 18
+change.case$ -- 225
 chr.to.int$ -- 0
-cite$ -- 34
-duplicate$ -- 440
-empty$ -- 1315
+cite$ -- 36
+duplicate$ -- 450
+empty$ -- 1322
 format.name$ -- 84
-if$ -- 5818
+if$ -- 4857
 int.to.chr$ -- 0
-int.to.str$ -- 57
+int.to.str$ -- 60
 missing$ -- 0
-newline$ -- 302
-num.names$ -- 49
-pop$ -- 360
-preamble$ -- 2
-purify$ -- 40
+newline$ -- 309
+num.names$ -- 48
+pop$ -- 954
+preamble$ -- 1
+purify$ -- 75
 quote$ -- 0
-skip$ -- 2784
+skip$ -- 1485
 stack$ -- 0
-substring$ -- 700
-swap$ -- 209
-text.length$ -- 21
+substring$ -- 766
+swap$ -- 238
+text.length$ -- 55
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 2848
+type$ -- 1692
 warning$ -- 0
-while$ -- 35
+while$ -- 69
 width$ -- 0
-write$ -- 357
-(There were 17 warnings)
+write$ -- 368

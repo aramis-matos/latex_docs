@@ -5,6 +5,8 @@
 \usepackage{apacite}
 \usepackage{parskip}
 \usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{lipsum}
 \setabbreviationstyle[acronym]{long-short}
 \newacronym{startup}{fotogramas de inicio}{Cantidad de fotogramas para comenzar una movida}
 \newacronym{active}{fotogramas activos}{Cantidad de fotogramas en la cual es posible colisionar con el oponente}
@@ -12,6 +14,7 @@
 \newacronym{frame_data}{datos fotográmicos}{los valores de fotogramas de inicio, fotogramas activos, fotogramas de recuperación y aturdimiento de bloqueo para una movida}
 \newacronym{on_block}{bloqueando}{Cantidad de fotogramas de ventaja o desventaja luego de restar fotogramas de recuperación y aturdimiento de bloqueo}
 \newacronym{blockstun}{aturdimiento de bloqueo}{Cantidad de fotogramas en que el atacado no puede hacer nada aparte de bloquear}
+\newacronym{gbfvs}{GBFVS}{Granblue Fantasy Versus}
 \makeglossaries
 
 \title{SkyboundDB 2.0}
@@ -33,6 +36,16 @@
 \addcontentsline{toc}{chapter}{Fundamentos Teóricos}
 
 \input{chapters/fund.tex}
+
+\chapter{Aspectos Humanos}
+\addcontentsline{toc}{chapter}{Aspetos Humanos}
+
+\input{chapters/aspectos_humanos.tex}
+
+\chapter{Aspectos Tecnológicos}
+\addcontentsline{toc}{chapter}{Aspectos Tecnológicos}
+
+\input{chapters/aspectos_tec.tex}
 
 \printglossary[type=\acronymtype]
 
