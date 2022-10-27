@@ -205,6 +205,22 @@ noauthor_guilty_2022}%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{{MELTY BLOOD}}: {{TYPE LUMINA}} Official Website}}{%
+\APACcitebtitle {{{MELTY BLOOD}}: {{TYPE LUMINA}} Official Website}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+noauthor_melty_nodate}
+\APACinsertmetastar {%
+noauthor_melty_nodate}%
+\APACrefbtitle {{{MELTY BLOOD}}: {{TYPE LUMINA}} Official Website.} {{{MELTY
+  BLOOD}}: {{TYPE LUMINA}} official website.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APAChowpublished {https://meltyblood.typelumina.com/en/}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 \APACcitebtitle {Numpad Notation}}{%
 \APACcitebtitle {Numpad Notation}}{%
 {\protect \APACyear {{\protect \bibnodate {}}}}%
