@@ -36,23 +36,48 @@ Dentro de estas dos cajas, están los personajes que se han seleccionado y su co
 
 Lo mismo ocurre en otros juegos como Melty Blood: Type Lumina \cite{noauthor_melty_nodate}, la figura \ref{fig: melty character select}:
 
-\begin{figure*}[ht!]
+\begin{figure}[ht!]
     \centering
     \caption{Menú de selección de personaje de Melty Blood}
     \includegraphics[height=0.5\textwidth]{figures/melty.jpg}
     \label{fig: melty character select}
-\end{figure*}
+\end{figure}
 
-Como se ve en ambos ejemplos, los personajes seleccionados están colocados en esquinas opuestas, cada uno en su propia caja. El único elemento que se comparte entre los dos es la lista de personajes
+Como se ve en ambos ejemplos, los personajes seleccionados están colocados en esquinas opuestas, cada uno en su propia caja. El único elemento que se comparte entre los dos es la lista de personajes (caja azul)
 
 \textbf{Características de la interfaz gráfica}: 
 
 \begin{itemize}
-    \item Aspectos ergonómicos
-    \item Colores
-    \item Interactividad
-    \item Validación de datos
-    \item Consistencia
-    \item Carga de memoria
-    \item Indicaciones visuales
+    \item \textbf{Aspectos ergonómicos}
+    \begin{itemize}
+        \item El texto dentro de la aplicación tiene que ser legible
+        \item Los menús desplegables tienen que ser lo suficientemente grande
+        \item Se tiene que seguir los estándares de accesibilidad de HTML, tales como el uso de atributos \textit{alt} y el uso apropiado, lógico y consistente de etiquetas
+        \item El botón de someter tiene que ser lo suficientemente claro en su propósito y suficientemente grande para que sea cómodo para todo tipo de usuario
+    \end{itemize}
+    \item \textbf{Colores}
+    
+    La paleta de colores es la siguiente:
+    \begin{figure}[ht!]
+        \centering
+        \caption{Paleta de Colores}
+        \includegraphics[width=1.0\textwidth]{figures/pallete.png}
+        \label{fig: pallete}
+    \end{figure}
+
+    Se utiliza el color del medio (\#3385D6 en hexadecimal) como color de fondo. Esto se debe a que al ser azul, distrae al usuario menos que un color como el rojo. Más aún, el color temático de \gls{gbfvs} es el azul claro. Esta relación ayuda a familiarizar el usuario con que juego esta trabajando esta aplicación. El color que se usa para los bordes es el color complementario de \#3385D6, el complemento de \#D69933 (marrón claro). Al marrón ser una mezcla del rojo y el verde, es bueno para detalles y para segmentar elementos de una manera visual.
+    \item \textbf{Interactividad}
+    \item \textbf{Validación de datos}
+    
+    Los fotogramas de cada personaje provienen de \textit{Dustloop} \textbf{CITATION HERE}. Estos datos se extraen cada cierto periodo de tiempo de \textit{Dustloop} automáticamente. Se asume que debido a que \gls{gbfvs} ya no está recibiendo actualizaciones que \textit{Dustloop} no cambiará drásticamente la estructura de las páginas de donde se extrae la data. Por ende, se asume que la data fotográmica sera confiable por un buen tiempo.
+
+    Debido a la naturaleza de los menús desplegables, no hay mucha validación necesaria en cuanto a las opciones que se le presentan al usuario. Sin embargo, hay un detalle importante que si se tiene que validar. La aplicación original de \textit{SkyboundDB} tiene la opción de comparar una movida con todas las movidas de otro personaje. Esto implica que no es posible comparar todas las movidas de un personaje con todas de otro por cuestiones de limpieza y por cuestiones prácticas debido a la cantidad de información que se tiene que presentar. A consecuencia de esto, se tiene que validar que el personaje que dio el primer golpe no tenga la opción de \textbf{Seleccionar todas las movidas} seleccionada y que el personaje que responde tampoco lo tenga a la vez. Solo el personaje que responde puede utilizar la opción de seleccionar todas sus movidas. Esta validación se tiene que hacer antes que se haga la comparación.
+    \item \textbf{Consistencia}
+    \item \textbf{Carga de memoria}
+    
+    Idealmente, la carga de memoria debe ser baja por varias razones: Unas de las metas primordiales de este proyecto es que la aplicación sea rápida y eficiente. Unas de las métricas de eficiencia es la memoria primaria necesaria para mantener la página abierta. Otra métrica importante es la cantidad de banda ancha necesaria para acceder la página en linea. Unos de los casos de usos que tiene la aplicación es su uso en torneos, particularmente entre o antes de partidas. Esta circunstancia requiere que la pagina cargue rápidamente y sin tardarse mucho las comparaciones.  
+
+    \item \textbf{Indicaciones visuales}
+    
+    Debido a las limitaciones de banda ancha, la página no puede tener una plantilla de estilo demasiada complicada. Sin embargo, elementos sencillos pueden mejorar la experiencia de usuario sin sacrificar mucho en términos de rapidez. Una imagen simple del personaje que se ha seleccionado, como se presenta en la figura \ref{fig: melty character select}, puede ayudar corroborar rápidamente si la selección del usuario fue la que quiso. Además, se puede estilizar la selección de movida para que se asemeje mas a la selección de traje como se puede apreciar con el dígito $2$ con las flechas en la parte derecha de las figuras \ref{fig: guilty character select} y \ref{fig: melty chracter select}. Estos detalles ayudan a conformarse al modelo mental que tiene el usuario de los juegos de pelea.
 \end{itemize}

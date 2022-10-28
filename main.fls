@@ -1243,6 +1243,11 @@ INPUT ./figures/melty.jpg
 INPUT figures/melty.jpg
 INPUT ./figures/melty.jpg
 INPUT ./figures/melty.jpg
+INPUT ./figures/pallete.png
+INPUT ./figures/pallete.png
+INPUT figures/pallete.png
+INPUT ./figures/pallete.png
+INPUT ./figures/pallete.png
 INPUT ./chapters/aspectos_tec.tex
 INPUT chapters/aspectos_tec.tex
 INPUT ./chapters/aspectos_tec.tex
