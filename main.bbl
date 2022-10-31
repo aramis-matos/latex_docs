@@ -173,6 +173,22 @@ noauthor_granblue_2022}%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {Granblue {{Fantasy Versus Wiki}}}}{%
+\APACcitebtitle {Granblue {{Fantasy Versus Wiki}}}}{%
+{\protect \APACyear {2022}}%
+}]{%
+noauthor_granblue_2022-1}
+\APACinsertmetastar {%
+noauthor_granblue_2022-1}%
+\APACrefbtitle {Granblue {{Fantasy Versus Wiki}}.} {Granblue {{Fantasy Versus
+  Wiki}}.}
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{08}}}{}.
+\newblock
+\APAChowpublished {https://www.dustloop.com/w/Granblue\_Fantasy\_Versus}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 \APACcitebtitle {A {{Guide}} to {{Frame Data}} - {{Dream Cancel}}}}{%
 \APACcitebtitle {A {{Guide}} to {{Frame Data}} - {{Dream Cancel}}}}{%
 {\protect \APACyear {{\protect \bibnodate {}}}}%
