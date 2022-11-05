@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1667400428 "main.aux" "main.bbl" "main" 1667400442
+["bibtex main"] 1667655061 "main.aux" "main.bbl" "main" 1667655244
   "/usr/share/texlive/texmf-dist/bibtex/bst/apacite/apacite.bst" 1374530685 141073 9d7b79dbf9d91133318126032cff8c27 ""
   "References.bib" 1667390989 20522 c38d44ea846cb7635ff8343e847e21ae ""
-  "main.aux" 1667400441 12249 607f55bf915d4a4a40692fa3c759efa8 "pdflatex"
+  "main.aux" 1667655244 12249 c8b9db1e69863b47a3068fd9ee6a20ba "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1667400441 "/home/ccyanide/Downloads/comp4998 proyect/latex_docs/main.tex" "main.pdf" "main" 1667400442
+["pdflatex"] 1667655243 "/home/ccyanide/Downloads/comp4998 proyect/latex_docs/main.tex" "main.pdf" "main" 1667655244
   "/home/ccyanide/.texlive2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1665235242 2727063 2f877110c23990c5d12569af9e666dfd ""
   "/home/ccyanide/Downloads/comp4998 proyect/latex_docs/main.tex" 1666954966 1810 c18e8eade021730575bb81cd248c48ea ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
@@ -189,7 +189,7 @@
   "/usr/share/texlive/texmf-dist/tex/xmltex/passivetex/unicode.sty" 1137109631 23178 b38c9ca013147c18d84820ffac463e00 ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1642711416 40136 b05acc85e8425979e52682d98a2bcacf ""
   "/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1665235120 5132490 3b5b73be92ec3d6f4a45957a9c195358 ""
-  "chapters/aspectos_humanos.tex" 1667400440 8995 05976ca3ab03be64a336c56c6b2e84c8 ""
+  "chapters/aspectos_humanos.tex" 1667655243 9679 c7c7074c83e00e12c8bd578cd28767ce ""
   "chapters/aspectos_tec.tex" 1666954966 336 a513eec39d971ff4b6b4811864af8da0 ""
   "chapters/fund.tex" 1666954966 3588 ff776d055d415cc7b39eef1f86e83131 ""
   "chapters/intro.tex" 1666954966 7324 dcb45c5e4718909b5fc6f4889053facd ""
@@ -197,11 +197,11 @@
   "figures/guilty.jpg" 1666960589 536230 dc43f19e219a29c07234e2271c44979d ""
   "figures/melty.jpg" 1666960828 644905 39c3e442be375e332d72b1cc59d8c302 ""
   "figures/pallete_updated.png" 1667398562 7789 1000d8744d463aff96d3ef4d0fe68354 ""
-  "main.acr" 1667400425 1309 3d661fd273698e1dd3eaae453f458ca1 ""
-  "main.aux" 1667400441 12249 607f55bf915d4a4a40692fa3c759efa8 "pdflatex"
-  "main.bbl" 1667400428 11402 c15c357579b9a36a9b60aad6c5818993 "bibtex main"
-  "main.out" 1667400441 2898 e5b5d85c57a39e62f3b9b701a807de28 "pdflatex"
-  "main.toc" 1667400441 1481 0b21c7b1aa7bfa5e6d82ed06f649104a "pdflatex"
+  "main.acr" 1667655059 1363 76732095494203af6790c68302c09fba ""
+  "main.aux" 1667655244 12249 c8b9db1e69863b47a3068fd9ee6a20ba "pdflatex"
+  "main.bbl" 1667655061 11402 c15c357579b9a36a9b60aad6c5818993 "bibtex main"
+  "main.out" 1667655244 2898 e5b5d85c57a39e62f3b9b701a807de28 "pdflatex"
+  "main.toc" 1667655244 1481 9b1df67aba69f177cc0611cf9c070b2d "pdflatex"
   (generated)
   "main.acn"
   "main.aux"

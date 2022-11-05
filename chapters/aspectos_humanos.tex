@@ -1,4 +1,8 @@
-
+\begin{tabularx}{\textwidth}{| X | X | X |}
+    \hline \textbf{Usuario} & \textbf{Clasificación} & \textbf{Circunstancias de Uso} \\
+    \hline Jugadores de \gls{gbfvs} & Jugadores Novatos \newline Jugadores Expertos & Antes, luego y entre partidas \newline El tiempo entre partidas es bien corta (1-3 minutos) \newline  En torneos competitivos \\
+    \hline
+\end{tabularx}
 
 \begin{tabularx}{\textwidth}{| X | X | X |}
     \hline \textbf{Elemento} & \textbf{Descripción} & \textbf{Importancia} \\
@@ -67,6 +71,19 @@ Como se ve en ambos ejemplos, los personajes seleccionados están colocados en e
 
     Se utiliza el color del medio (\#3385D6 en hexadecimal) como color de fondo. Esto se debe a que al ser azul, distrae al usuario menos que un color como el rojo. Más aún, el color temático de \gls{gbfvs} es el azul claro. Esta relación ayuda a familiarizar el usuario con que juego esta trabajando esta aplicación. El color que se usa para los bordes es el color complementario de \#3385D6, el complemento de \#D69933 (marrón claro). Al marrón ser una mezcla del rojo y el verde, es bueno para detalles y para segmentar elementos de una manera visual.
     \item \textbf{Interactividad}
+    \begin{itemize}
+        \item Completa
+        \begin{itemize}
+            \item Imágenes
+            \item Apuntador
+            \item Teclado
+        \end{itemize}
+        \item Parcial
+        \begin{itemize}
+            \item Teclado
+            \item Auditivo
+        \end{itemize}
+    \end{itemize}
     \item \textbf{Validación de datos}
     
     Los fotogramas de cada personaje provienen de \textit{Dustloop} \cite{noauthor_granblue_2022-1}. Estos datos se extraen cada cierto periodo de tiempo de \textit{Dustloop} automáticamente. Se asume que debido a que \gls{gbfvs} ya no está recibiendo actualizaciones que \textit{Dustloop} no cambiará drásticamente la estructura de las páginas de donde se extrae la data. Por ende, se asume que la data fotográmica sera confiable por un buen tiempo.
