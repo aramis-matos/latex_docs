@@ -1,44 +1,57 @@
+Toda aplicación esta con interfaz gráfica de usuario está destinada para el uso del humano. A consecuencia de esto, es importante diseñar la interfaz gráfica de usuario de acuerdo a las características y necesidades de los usurarios. Es por esto que se requiere crear un perfil de usuario, para mejor acomodar el usuario y que su experiencia con la aplicación se intuitiva y placentera.
+
+
+\begin{table}[h!]
+    \caption{Aspectos Humanos}
 \begin{tabularx}{\textwidth}{| X | X | X |}
     \hline \textbf{Usuario} & \textbf{Clasificación} & \textbf{Circunstancias de Uso} \\
     \hline Jugadores de \gls{gbfvs} & Jugadores Novatos \newline Jugadores Expertos & Antes, luego y entre partidas \newline El tiempo entre partidas es bien corta (1-3 minutos) \newline  En torneos competitivos \\
     \hline
 \end{tabularx}
 
+
+\label{tab: aspectos humanos}
+\end{table}
+
+
 \begin{tabularx}{\textwidth}{| X | X | X |}
     \hline \textbf{Elemento} & \textbf{Descripción} & \textbf{Importancia} \\
     \hline \textbf{Datos básicos} & Usuarios: Jugadores de \gls{gbfvs} \newline Limitaciones: No se puede comparar todas las movidas de un personaje con todas de otro  & Si un usuario no es jugador de \gls{gbfvs}, no le va a conseguir utilidad a la aplicación\\
     \hline \textbf{Características físicas} & La audiencia para la aplicación es aquellos de 13 años o mas, independiente de genero o sexo. Si el usuario puede navegar el internet, puede acceder la aplicación & \gls{gbfvs}, como muchos juegos de pelea, son bien accesibles a personas con discapacidades. Es por esto, se piensa seguir las guías de accesibilidad para la \textit{web}\\ 
-    \hline \textbf{Características psicológicas} & Se asume que el usuario es alfabeta, conoce la notación de teclado numérico \cite{noauthor_numpad_nodate} y conoce acerca de \gls{frame_data} & Debido a la manera que se extrae la data de su fuente de origen, el usuario debe ser capaz de comprender la notación de teclado numérico\\
-    \hline \textbf{Dispositivos comúnmente usados} & La aplicación es una página \textit{web}, por ende, cualquier dispositivo que pueda navegar el internet, puede acceder la aplicación.  & La mayoría de la demografía de la aplicación tienen acceso a un dispositivo móvil a todo momento. \\
+    \hline \textbf{Características cognitivas} & Se asume que el usuario es alfabeta, conoce la notación de teclado numérico \cite{noauthor_numpad_nodate} y conoce acerca de \gls{frame_data} & Debido a la manera que se extrae la data de su fuente de origen, el usuario debe ser capaz de comprender la notación de teclado numérico\\
+    \hline \textbf{Dispositivos comúnmente usados} & La aplicación es una página \textit{Web}. 
+    %  por ende, cualquier dispositivo que pueda navegar el internet, puede acceder la aplicación.  
+    & La mayoría de la demografía de la aplicación tienen acceso a un dispositivo móvil a todo momento. \\
+    
 \end{tabularx}
 
 \begin{tabularx}{\textwidth}{| X |  X |  X |}
     & Sin embargo, la aplicación está diseñada principalmente para dispositivos móviles y computadoras & Este punto es importante porque la aplicación es útil cuando se esté compitiendo\\
-    \hline \textbf{Modelo mental del sistema} & El modelo mental en la cual se basa la aplicación es la del menú de selección de personaje como se presenta en las figuras \ref{fig: strive chracter select} y \ref{fig: melty character select}, redondeadas por un rectángulo azul & El adaptarse a un modelo mental pre-existente facilita el aprendizaje del programa y por ende, acelera la adquisición de pericia y limita la frustración con la aplicación  \\ 
+    \hline \textbf{Modelo mental del sistema} & El modelo mental en la cual se basa la aplicación es la del menú de selección de personaje como se presenta en las figuras \ref{fig: strive chracter select} y \ref{fig: melty character select}, acompañadas por un rectángulo azul & La adaptación a un modelo mental pre-existente facilita el aprendizaje del programa y por ende, acelera la adquisición de pericia y limita la frustración con la aplicación  \\ 
     \hline \textbf{Metas} & Al iniciar, se le ofrece al usuario las entradas de el el personaje que inició el ataque, el que respondió al ataque y sus respectivas movidas de cada personaje seleccionado. Al llegar a la página de resultados, el usuario logro seleccionar el personaje que inició el ataque, el que respondió al ataque y sus respectivas movidas y logró ver como son los datos fotográmicos de las movidas al ser comparadas & Dado que la naturaleza de la aplicación es de calculadora fotográmica, es obvio entonces que es de gran importancia que el usuario consiga la información que busca \\ 
     \hline \textbf{Requisitos} & Se piensa que la aplicación sera utilizada espontáneamente entre o antes partidas. Es por esto que aplicación debe ser sencilla y rápida de acceder & La rapidez y sencillez y sumamente importante debido a que el tiempo entre partidas en un torneo es bien corto (entre 1-3 minutos). Se tiene que tener acceso inmediato a la información deseada\\ 
     \hline
 \end{tabularx}
 
-\textbf{Metáfora de la interfaz gráfica}: Los juegos de pelea generalmente tienen un diseño de similar a dos cajas verticales, como se puede apreciar en la figura \ref{fig: abstract model}:
+\textbf{Metáfora de la interfaz gráfica de usuario}: Los juegos de pelea generalmente tienen un diseño de similar a dos cajas verticales, como se puede apreciar en la figura \ref{fig: abstract model}.
 
 \begin{figure}[ht!]
     \centering
-    \caption{Modelo abstracto del menú de los juegos de pelea}
     \includegraphics[height=0.2\textwidth]{figures/abstract-design.jpg}
+    \caption{Modelo abstracto del menú de los juegos de pelea}
     \label{fig: abstract model}
 \end{figure}
 
-Dentro de estas dos cajas, están los personajes que se han seleccionado y su color de traje, como se puede ver en la figura \ref{fig: strive chracter select}:
+Dentro de estas dos cajas, están los personajes que se han seleccionado y su color de traje, como se puede ver en la figura \ref{fig: strive chracter select}.
 
 \begin{figure}[ht!]
     \centering
-    \caption{Menú de selección de personaje de Guilty Gear Strive}
     \includegraphics[height=0.5\textwidth]{figures/guilty.jpg}
+    \caption{Menú de selección de personaje de Guilty Gear Strive}
     \label{fig: strive chracter select}
 \end{figure}
 
-Lo mismo ocurre en otros juegos como Melty Blood: Type Lumina \cite{noauthor_melty_nodate}, la figura \ref{fig: melty character select}:
+Lo mismo ocurre en otros juegos como Melty Blood: Type Lumina \cite{noauthor_melty_nodate}, la figura \ref{fig: melty character select}.
 
 \begin{figure}[ht!]
     \centering
@@ -49,10 +62,10 @@ Lo mismo ocurre en otros juegos como Melty Blood: Type Lumina \cite{noauthor_mel
 
 Como se ve en ambos ejemplos, los personajes seleccionados están colocados en esquinas opuestas, cada uno en su propia caja. El único elemento que se comparte entre los dos es la lista de personajes (caja azul)
 
-\textbf{Características de la interfaz gráfica}: 
+\textbf{Características de la interfaz gráfica de usuario}: 
 
 \begin{itemize}
-    \item \textbf{Aspectos ergonómicos}
+    \item \textbf{Aspectos generales}
     \begin{itemize}
         \item El texto dentro de la aplicación tiene que ser legible
         \item Los menús desplegables tienen que ser lo suficientemente grande
@@ -94,7 +107,7 @@ Como se ve en ambos ejemplos, los personajes seleccionados están colocados en e
     
     % Idealmente, la carga de memoria debe ser baja por varias razones: Unas de las metas primordiales de este proyecto es que la aplicación sea rápida y eficiente. Unas de las métricas de eficiencia es la memoria primaria necesaria para mantener la página abierta. Otra métrica importante es la cantidad de banda ancha necesaria para acceder la página en linea. Unos de los casos de usos que tiene la aplicación es su uso en torneos, particularmente entre o antes de partidas. Esta circunstancia requiere que la pagina cargue rápidamente y sin tardarse mucho las comparaciones.  
 
-    En la aplicación original de SkyboundDB, cada personaje tenía su propia foto como ícono para seleccionarlo. Esto hacia que la interfaz sea mas interactiva e intuitiva. Esta decisión era viable porque solo habían 6 personajes, no se añadieron todos los 28 personajes por cuestiones de tiempo. SkyboundDB 2.0 tendrá la opciones se seleccionar cualquier de los 28 personajes. Es por esto que no se puede tener un ícono por cada personaje. Es intimidante tener tanta opciones. Es muy común ver a un jugador novato de juegos de pelea quedarse paralizado al ver cuantos personajes puede usar. Es por esto se tiene que conseguir una manera de colapsar todas las opciones de personajes en un solo elemento, aunque se tenga que sacrificar interactividad.
+    En la aplicación original de SkyboundDB, cada personaje tenía su propia foto como ícono para seleccionarlo. Esto hacia que la interfaz gráfica de usuario sea mas interactiva e intuitiva. Esta decisión era viable porque solo habían 6 personajes, no se añadieron todos los 28 personajes por cuestiones de tiempo. SkyboundDB 2.0 tendrá la opciones se seleccionar cualquier de los 28 personajes. Es por esto que no se puede tener un ícono por cada personaje. Es intimidante tener tanta opciones. Es muy común ver a un jugador novato de juegos de pelea quedarse paralizado al ver cuantos personajes puede usar. Es por esto se tiene que conseguir una manera de colapsar todas las opciones de personajes en un solo elemento, aunque se tenga que sacrificar interactividad.
 
     \item \textbf{Indicaciones visuales}
     

@@ -18,5 +18,5 @@
 \contentsline {chapter}{Aspetos Humanos}{9}{chapter.3}%
 \contentsline {chapter}{\numberline {4}Aspectos Tecnológicos}{16}{chapter.4}%
 \contentsline {chapter}{Aspectos Tecnológicos}{16}{chapter.4}%
-\contentsline {chapter}{Acronyms}{18}{section*.2}%
-\contentsline {chapter}{References}{19}{chapter*.4}%
+\contentsline {chapter}{Acrónimos}{19}{section*.2}%
+\contentsline {chapter}{Referencias Bibliográficas}{20}{chapter*.4}%
