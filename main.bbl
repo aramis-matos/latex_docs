@@ -1,3 +1,4 @@
+\ifdefined\DeclarePrefChars\DeclarePrefChars{'’-}\else\fi
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
@@ -20,29 +21,34 @@ R.%
 \APACrefbtitle {Grasshopper ({{Character Balancing}} / {{Frame Data Tool}}).}
   {Grasshopper ({{Character Balancing}} / {{Frame Data Tool}}).}
 \newblock
-\APAChowpublished
-  {https://mugenfreeforall.com/topic/27012-grasshopper-character-balancing-frame-data-tool/}.
+\begin{APACrefURL}
+  [{2022-09-03}]\url{https://mugenfreeforall.com/topic/27012-grasshopper-character-balancing-frame-data-tool/}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-{aramis-matos}%
+aramis {matos}%
 }{%
-{aramis-matos}%
+aramis {matos}%
 }{%
-{\protect \APACyear {2022}}%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
 }]{%
 aramis-matos_skybounddb_2022}
 \APACinsertmetastar {%
 aramis-matos_skybounddb_2022}%
 \begin{APACrefauthors}%
-{aramis-matos}.%
+aramis {matos}.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2022}{{\APACmonth{08}}}{}.
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
 \newblock
 \APACrefbtitle {{{SkyboundDB}}: {{The GBFVS Frame Data Calculator}}.}
   {{{SkyboundDB}}: {{The GBFVS Frame Data Calculator}}.}
+\newblock
+\begin{APACrefURL}
+  [{2022-09-09}]\url{https://github.com/aramis-matos/SkyboundDB}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -50,20 +56,25 @@ aramis-matos_skybounddb_2022}%
 }{%
 {Core-A Gaming}%
 }{%
-{\protect \APACyear {2019}}%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
 }]{%
 core-a_gaming_analysis_2019}
 \APACinsertmetastar {%
 core-a_gaming_analysis_2019}%
 \begin{APACrefauthors}%
-{Core-A Gaming}.%
+{Core-A Gaming}%
 \end{APACrefauthors}%
+\ (\BED).
 \unskip\
 \newblock
-\APACrefYearMonthDay{2019}{{\APACmonth{05}}}{}.
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
 \newblock
 \APACrefbtitle {Analysis: {{Why Button Mashing Doesn}}'t {{Work}}.} {Analysis:
   {{Why Button Mashing Doesn}}'t {{Work}}.}
+\newblock
+\begin{APACrefURL}
+  [{2022-09-10}]\url{https://www.youtube.com/watch?v=_R0hbe8HZj0}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -71,7 +82,7 @@ D4RKONION%
 }{%
 D4RKONION%
 }{%
-{\protect \APACyear {2022}}%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
 }]{%
 d4rkonion_fat_2022}
 \APACinsertmetastar {%
@@ -81,9 +92,29 @@ D4RKONION.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2022}{{\APACmonth{08}}}{}.
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
 \newblock
 \APACrefbtitle {{{FAT}} 3.} {{{FAT}} 3.}
+\newblock
+\begin{APACrefURL} [{2022-09-03}]\url{https://github.com/D4RKONION/FAT}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {Designing with {{Material}}}}{%
+\APACcitebtitle {Designing with {{Material}}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+noauthor_designing_nodate}
+\APACinsertmetastar {%
+noauthor_designing_nodate}%
+\APACrefbtitle {Designing with {{Material}}.} {Designing with {{Material}}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL}
+  [{2022-11-25}]\url{https://design.google/library/designing-material/}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -91,7 +122,7 @@ D4RKONION.%
 }{%
 {Dustloop}%
 }{%
-{\protect \APACyear {2022}}%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
 }]{%
 dustloop_using_2022}
 \APACinsertmetastar {%
@@ -101,11 +132,126 @@ dustloop_using_2022}%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2022}{{\APACmonth{08}}}{}.
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
 \newblock
 \APACrefbtitle {Using {{Frame Data}}.} {Using {{Frame Data}}.}
 \newblock
-\APAChowpublished {https://www.dustloop.com/w/Using\_Frame\_Data}.
+\begin{APACrefURL}
+  [{2022-09-03}]\url{https://www.dustloop.com/w/Using_Frame_Data}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {\emph{Granblue }{{\emph{Fantasy Versus}}}}}{%
+\APACcitebtitle {\emph{Granblue }{{\emph{Fantasy Versus}}}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+noauthor_granblue_2022-1}
+\APACinsertmetastar {%
+noauthor_granblue_2022-1}%
+\APACrefbtitle {\emph{Granblue }{{\emph{Fantasy Versus}}}.} {\emph{Granblue
+  }{{\emph{Fantasy Versus}}}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL}
+  [{2022-09-10}]\url{https://en.wikipedia.org/w/index.php?title=Granblue_Fantasy_Versus&oldid=1105731908}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {\emph{Guilty }{{\emph{Gear Strive}}}}}{%
+\APACcitebtitle {\emph{Guilty }{{\emph{Gear Strive}}}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+noauthor_guilty_2022}
+\APACinsertmetastar {%
+noauthor_guilty_2022}%
+\APACrefbtitle {\emph{Guilty }{{\emph{Gear Strive}}}.} {\emph{Guilty
+  }{{\emph{Gear Strive}}}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL}
+  [{2022-09-03}]\url{https://en.wikipedia.org/w/index.php?title=Guilty_Gear_Strive&oldid=1106552864}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {\emph{Street }{{\emph{Fighter III}}}\emph{: 3rd
+  }{{\emph{Strike}}}}}{%
+\APACcitebtitle {\emph{Street }{{\emph{Fighter III}}}\emph{: 3rd
+  }{{\emph{Strike}}}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+noauthor_street_2022-2}
+\APACinsertmetastar {%
+noauthor_street_2022-2}%
+\APACrefbtitle {\emph{Street }{{\emph{Fighter III}}}\emph{: 3rd
+  }{{\emph{Strike}}}.} {\emph{Street }{{\emph{Fighter III}}}\emph{: 3rd
+  }{{\emph{Strike}}}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL}
+  [{2022-09-03}]\url{https://en.wikipedia.org/w/index.php?title=Street_Fighter_III:_3rd_Strike&oldid=1106686885}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {\emph{Street }{{\emph{Fighter IV}}}}}{%
+\APACcitebtitle {\emph{Street }{{\emph{Fighter IV}}}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+noauthor_street_2022-1}
+\APACinsertmetastar {%
+noauthor_street_2022-1}%
+\APACrefbtitle {\emph{Street }{{\emph{Fighter IV}}}.} {\emph{Street
+  }{{\emph{Fighter IV}}}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL}
+  [{2022-09-03}]\url{https://en.wikipedia.org/w/index.php?title=Street_Fighter_IV&oldid=1100411514}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {\emph{Street }{{\emph{Fighter V}}}}}{%
+\APACcitebtitle {\emph{Street }{{\emph{Fighter V}}}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+noauthor_street_2022}
+\APACinsertmetastar {%
+noauthor_street_2022}%
+\APACrefbtitle {\emph{Street }{{\emph{Fighter V}}}.} {\emph{Street
+  }{{\emph{Fighter V}}}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL}
+  [{2022-09-03}]\url{https://en.wikipedia.org/w/index.php?title=Street_Fighter_V&oldid=1105720233}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {\emph{Super }{{\emph{Smash Bros}}}\emph{.
+  }{{\emph{Melee}}}}}{%
+\APACcitebtitle {\emph{Super }{{\emph{Smash Bros}}}\emph{.
+  }{{\emph{Melee}}}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+noauthor_super_2022}
+\APACinsertmetastar {%
+noauthor_super_2022}%
+\APACrefbtitle {\emph{Super }{{\emph{Smash Bros}}}\emph{. }{{\emph{Melee}}}.}
+  {\emph{Super }{{\emph{Smash Bros}}}\emph{. }{{\emph{Melee}}}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL}
+  [{2022-09-09}]\url{https://en.wikipedia.org/w/index.php?title=Super_Smash_Bros._Melee&oldid=1109272383}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -121,7 +267,9 @@ noauthor_fighting_nodate-1}%
 \newblock
 \APACrefYearMonthDay{{\protect \bibnodate {}}{\protect \BCntND {1}}}{}{}.
 \newblock
-\APAChowpublished {https://glossary.infil.net/?t=Frame\%20Data}.
+\begin{APACrefURL}
+  [{2022-09-10}]\url{https://glossary.infil.net/?t=Frame%20Data}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -137,7 +285,9 @@ noauthor_fighting_nodate-2}%
 \newblock
 \APACrefYearMonthDay{{\protect \bibnodate {}}{\protect \BCntND {2}}}{}{}.
 \newblock
-\APAChowpublished {https://glossary.infil.net/?t=Health\%20Bar}.
+\begin{APACrefURL}
+  [{2022-09-09}]\url{https://glossary.infil.net/?t=Frame%20Advantage}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -153,39 +303,27 @@ noauthor_fighting_nodate}%
 \newblock
 \APACrefYearMonthDay{{\protect \bibnodate {}}{\protect \BCntND {3}}}{}{}.
 \newblock
-\APAChowpublished {https://glossary.infil.net/?t=Frame\%20Advantage}.
+\begin{APACrefURL}
+  [{2022-09-10}]\url{https://glossary.infil.net/?t=Health%20Bar}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-\APACciteatitle {{\emph{Granblue }}{{{\emph{Fantasy Versus}}}}}}{%
-\APACciteatitle {{\emph{Granblue }}{{{\emph{Fantasy Versus}}}}}}{%
-{\protect \APACyear {2022}}%
+\APACcitebtitle {Granblue {{Fantasy Versus Wiki}}}}{%
+\APACcitebtitle {Granblue {{Fantasy Versus Wiki}}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
 }]{%
 noauthor_granblue_2022}
 \APACinsertmetastar {%
 noauthor_granblue_2022}%
-{\BBOQ}\APACrefatitle {{\emph{Granblue }}{{{\emph{Fantasy Versus}}}}}
-  {{\emph{Granblue }}{{{\emph{Fantasy Versus}}}}}.{\BBCQ}
-\newblock
-\APACrefYearMonthDay{2022}{{\APACmonth{08}}}{}.
-\newblock
-\APACjournalVolNumPages{Wikipedia}{}{}{}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-\APACcitebtitle {Granblue {{Fantasy Versus Wiki}}}}{%
-\APACcitebtitle {Granblue {{Fantasy Versus Wiki}}}}{%
-{\protect \APACyear {2022}}%
-}]{%
-noauthor_granblue_2022-1}
-\APACinsertmetastar {%
-noauthor_granblue_2022-1}%
 \APACrefbtitle {Granblue {{Fantasy Versus Wiki}}.} {Granblue {{Fantasy Versus
   Wiki}}.}
 \newblock
-\APACrefYearMonthDay{2022}{{\APACmonth{08}}}{}.
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
 \newblock
-\APAChowpublished {https://www.dustloop.com/w/Granblue\_Fantasy\_Versus}.
+\begin{APACrefURL}
+  [{2022-10-31}]\url{https://www.dustloop.com/w/Granblue_Fantasy_Versus}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -201,23 +339,9 @@ noauthor_guide_nodate}%
 \newblock
 \APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
 \newblock
-\APAChowpublished {https://dreamcancel.com/2011/10/a-guide-to-frame-data/}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-\APACciteatitle {{\emph{Guilty }}{{{\emph{Gear Strive}}}}}}{%
-\APACciteatitle {{\emph{Guilty }}{{{\emph{Gear Strive}}}}}}{%
-{\protect \APACyear {2022}}%
-}]{%
-noauthor_guilty_2022}
-\APACinsertmetastar {%
-noauthor_guilty_2022}%
-{\BBOQ}\APACrefatitle {{\emph{Guilty }}{{{\emph{Gear Strive}}}}} {{\emph{Guilty
-  }}{{{\emph{Gear Strive}}}}}.{\BBCQ}
-\newblock
-\APACrefYearMonthDay{2022}{{\APACmonth{08}}}{}.
-\newblock
-\APACjournalVolNumPages{Wikipedia}{}{}{}.
+\begin{APACrefURL}
+  [{2022-09-03}]\url{https://dreamcancel.com/2011/10/a-guide-to-frame-data/}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -233,7 +357,8 @@ noauthor_melty_nodate}%
 \newblock
 \APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
 \newblock
-\APAChowpublished {https://meltyblood.typelumina.com/en/}.
+\begin{APACrefURL} [{2022-10-27}]\url{https://meltyblood.typelumina.com/en/}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -248,8 +373,9 @@ noauthor_numpad_nodate}%
 \newblock
 \APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
 \newblock
-\APAChowpublished
-  {https://fighting-game-collectors.fandom.com/wiki/Numpad\_notation}.
+\begin{APACrefURL}
+  [{2022-10-26}]\url{https://fighting-game-collectors.fandom.com/wiki/Numpad_notation}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -268,77 +394,9 @@ noauthor_rubendalssbu-calculator_nodate}%
 \newblock
 \APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
 \newblock
-\APAChowpublished {https://github.com/rubendal/SSBU-Calculator}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-\APACciteatitle {{\emph{Street }}{{{\emph{Fighter III}}}}{\emph{: 3rd
-  }}{{{\emph{Strike}}}}}}{%
-\APACciteatitle {{\emph{Street }}{{{\emph{Fighter III}}}}{\emph{: 3rd
-  }}{{{\emph{Strike}}}}}}{%
-{\protect \APACyear {2022}}%
-}]{%
-noauthor_street_2022-2}
-\APACinsertmetastar {%
-noauthor_street_2022-2}%
-{\BBOQ}\APACrefatitle {{\emph{Street }}{{{\emph{Fighter III}}}}{\emph{: 3rd
-  }}{{{\emph{Strike}}}}} {{\emph{Street }}{{{\emph{Fighter III}}}}{\emph{: 3rd
-  }}{{{\emph{Strike}}}}}.{\BBCQ}
-\newblock
-\APACrefYearMonthDay{2022}{{\APACmonth{08}}}{}.
-\newblock
-\APACjournalVolNumPages{Wikipedia}{}{}{}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-\APACciteatitle {{\emph{Street }}{{{\emph{Fighter IV}}}}}}{%
-\APACciteatitle {{\emph{Street }}{{{\emph{Fighter IV}}}}}}{%
-{\protect \APACyear {2022}}%
-}]{%
-noauthor_street_2022-1}
-\APACinsertmetastar {%
-noauthor_street_2022-1}%
-{\BBOQ}\APACrefatitle {{\emph{Street }}{{{\emph{Fighter IV}}}}} {{\emph{Street
-  }}{{{\emph{Fighter IV}}}}}.{\BBCQ}
-\newblock
-\APACrefYearMonthDay{2022}{{\APACmonth{07}}}{}.
-\newblock
-\APACjournalVolNumPages{Wikipedia}{}{}{}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-\APACciteatitle {{\emph{Street }}{{{\emph{Fighter V}}}}}}{%
-\APACciteatitle {{\emph{Street }}{{{\emph{Fighter V}}}}}}{%
-{\protect \APACyear {2022}}%
-}]{%
-noauthor_street_2022}
-\APACinsertmetastar {%
-noauthor_street_2022}%
-{\BBOQ}\APACrefatitle {{\emph{Street }}{{{\emph{Fighter V}}}}} {{\emph{Street
-  }}{{{\emph{Fighter V}}}}}.{\BBCQ}
-\newblock
-\APACrefYearMonthDay{2022}{{\APACmonth{08}}}{}.
-\newblock
-\APACjournalVolNumPages{Wikipedia}{}{}{}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-\APACciteatitle {{\emph{Super }}{{{\emph{Smash Bros}}}}{\emph{.
-  }}{{{\emph{Ultimate}}}}}}{%
-\APACciteatitle {{\emph{Super }}{{{\emph{Smash Bros}}}}{\emph{.
-  }}{{{\emph{Ultimate}}}}}}{%
-{\protect \APACyear {2022}}%
-}]{%
-noauthor_super_2022}
-\APACinsertmetastar {%
-noauthor_super_2022}%
-{\BBOQ}\APACrefatitle {{\emph{Super }}{{{\emph{Smash Bros}}}}{\emph{.
-  }}{{{\emph{Ultimate}}}}} {{\emph{Super }}{{{\emph{Smash Bros}}}}{\emph{.
-  }}{{{\emph{Ultimate}}}}}.{\BBCQ}
-\newblock
-\APACrefYearMonthDay{2022}{{\APACmonth{09}}}{}.
-\newblock
-\APACjournalVolNumPages{Wikipedia}{}{}{}.
+\begin{APACrefURL}
+  [{2022-09-03}]\url{https://github.com/rubendal/SSBU-Calculator}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -346,7 +404,7 @@ Willingham%
 }{%
 Willingham%
 }{%
-{\protect \APACyear {2018}}%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
 }]{%
 willingham_what_2018}
 \APACinsertmetastar {%
@@ -356,14 +414,15 @@ Willingham, A.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2018}{{\APACmonth{08}}}{}.
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
 \newblock
 \APACrefbtitle {What Is {{eSports}}? {{A}} Look at an Explosive, Billion-Dollar
   Industry | {{CNN}}.} {What is {{eSports}}? {{A}} look at an explosive,
   billion-dollar industry | {{CNN}}.}
 \newblock
-\APAChowpublished
-  {https://edition.cnn.com/2018/08/27/us/esports-what-is-video-game-professional-league-madden-trnd/index.html}.
+\begin{APACrefURL}
+  [{2022-09-03}]\url{https://edition.cnn.com/2018/08/27/us/esports-what-is-video-game-professional-league-madden-trnd/index.html}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

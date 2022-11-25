@@ -12,45 +12,88 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: References.bib
+Warning--entry type for "aramis-matos_skybounddb_2022" isn't style-file defined
+--line 1 of file References.bib
+Warning--entry type for "core-a_gaming_analysis_2019" isn't style-file defined
+--line 24 of file References.bib
+Warning--entry type for "d4rkonion_fat_2022" isn't style-file defined
+--line 34 of file References.bib
+Warning--entry type for "dustloop_using_2022" isn't style-file defined
+--line 55 of file References.bib
+Warning--entry type for "noauthor_designing_nodate" isn't style-file defined
+--line 66 of file References.bib
+Warning--entry type for "noauthor_fighting_nodate" isn't style-file defined
+--line 83 of file References.bib
+Warning--entry type for "noauthor_fighting_nodate-1" isn't style-file defined
+--line 90 of file References.bib
+Warning--entry type for "noauthor_fighting_nodate-2" isn't style-file defined
+--line 97 of file References.bib
+Warning--entry type for "noauthor_granblue_2022" isn't style-file defined
+--line 110 of file References.bib
+Warning--entry type for "noauthor_granblue_2022-1" isn't style-file defined
+--line 121 of file References.bib
+Warning--entry type for "noauthor_grasshopper_nodate" isn't style-file defined
+--line 133 of file References.bib
+Warning--entry type for "noauthor_guide_nodate" isn't style-file defined
+--line 144 of file References.bib
+Warning--entry type for "noauthor_guilty_2022" isn't style-file defined
+--line 151 of file References.bib
+Warning--entry type for "noauthor_melty_nodate" isn't style-file defined
+--line 163 of file References.bib
+Warning--entry type for "noauthor_numpad_nodate" isn't style-file defined
+--line 169 of file References.bib
+Warning--entry type for "noauthor_rubendalssbu-calculator_nodate" isn't style-file defined
+--line 179 of file References.bib
+Warning--entry type for "noauthor_street_2022" isn't style-file defined
+--line 220 of file References.bib
+Warning--entry type for "noauthor_street_2022-1" isn't style-file defined
+--line 232 of file References.bib
+Warning--entry type for "noauthor_street_2022-2" isn't style-file defined
+--line 244 of file References.bib
+Warning--entry type for "noauthor_super_2022" isn't style-file defined
+--line 257 of file References.bib
+Warning--entry type for "willingham_what_2018" isn't style-file defined
+--line 310 of file References.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 20 entries,
+You've used 21 entries,
             6951 wiz_defined-function locations,
-            1331 strings with 12790 characters,
-and the built_in function-call counts, 25212 in all, are:
-= -- 3308
-> -- 62
-< -- 929
-+ -- 795
+            1349 strings with 13594 characters,
+and the built_in function-call counts, 30995 in all, are:
+= -- 4812
+> -- 63
+< -- 885
++ -- 762
 - -- 22
-* -- 1409
-:= -- 4032
-add.period$ -- 77
-call.type$ -- 20
-change.case$ -- 246
+* -- 1460
+:= -- 3827
+add.period$ -- 69
+call.type$ -- 21
+change.case$ -- 69
 chr.to.int$ -- 0
-cite$ -- 40
-duplicate$ -- 496
-empty$ -- 1478
+cite$ -- 42
+duplicate$ -- 544
+empty$ -- 1639
 format.name$ -- 84
-if$ -- 5415
+if$ -- 7161
 int.to.chr$ -- 0
-int.to.str$ -- 66
+int.to.str$ -- 69
 missing$ -- 0
-newline$ -- 339
-num.names$ -- 48
-pop$ -- 1094
-preamble$ -- 1
-purify$ -- 82
+newline$ -- 362
+num.names$ -- 49
+pop$ -- 444
+preamble$ -- 2
+purify$ -- 48
 quote$ -- 0
-skip$ -- 1620
+skip$ -- 3439
 stack$ -- 0
-substring$ -- 850
-swap$ -- 258
-text.length$ -- 60
+substring$ -- 819
+swap$ -- 253
+text.length$ -- 25
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 1900
+type$ -- 3552
 warning$ -- 0
-while$ -- 74
+while$ -- 39
 width$ -- 0
-write$ -- 406
+write$ -- 433
+(There were 21 warnings)
