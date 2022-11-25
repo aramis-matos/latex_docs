@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1669387921 "main.aux" "main.bbl" "main" 1669387922
+["bibtex main"] 1669401273 "main.aux" "main.bbl" "main" 1669401275
   "/usr/share/texlive/texmf-dist/bibtex/bst/apacite/apacite.bst" 1374530685 141073 9d7b79dbf9d91133318126032cff8c27 ""
   "References.bib" 1669383647 23049 01c6264d83e50c6d8483c8528994020a ""
-  "main.aux" 1669387922 15335 741e8b44b13b31bc0dc109aea5902e13 "pdflatex"
+  "main.aux" 1669401274 15811 dd91ebab68a5098ec127d2303ee21c10 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1669387921 "/home/ccyanide/Downloads/comp4998 proyect/latex_docs/main.tex" "main.pdf" "main" 1669387922
+["pdflatex"] 1669401273 "/home/ccyanide/Downloads/comp4998 proyect/latex_docs/main.tex" "main.pdf" "main" 1669401275
   "/home/ccyanide/.texlive2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1665235242 2727063 2f877110c23990c5d12569af9e666dfd ""
   "/home/ccyanide/Downloads/comp4998 proyect/latex_docs/main.tex" 1669378276 2218 2b697e88caa7b29b0d61e46e660f6227 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
@@ -195,7 +195,7 @@
   "/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1665235120 5132490 3b5b73be92ec3d6f4a45957a9c195358 ""
   "chapters/aspectos_humanos.tex" 1669293716 10988 c8c7cf55fba2010da8937f3e2a9fe222 ""
   "chapters/aspectos_tec.tex" 1669291182 3398 1c0252529fe699d72ee6e7fbe9ddfe00 ""
-  "chapters/diseno.tex" 1669387882 3337 2df99e5ffe4da3876caef064cb680343 ""
+  "chapters/diseno.tex" 1669401271 3962 49fd1588e36faad6c168017b83a46516 ""
   "chapters/fund.tex" 1666954966 3588 ff776d055d415cc7b39eef1f86e83131 ""
   "chapters/intro.tex" 1669289130 7501 d1af253120f922ac5db5e8924d6e345c ""
   "figures/SUC1.png" 1669381675 186802 60f7e585ec390836044f341430fbecea ""
@@ -208,11 +208,11 @@
   "figures/guilty.jpg" 1666960589 536230 dc43f19e219a29c07234e2271c44979d ""
   "figures/melty.jpg" 1666960828 644905 39c3e442be375e332d72b1cc59d8c302 ""
   "figures/pallete_updated.png" 1667398562 7789 1000d8744d463aff96d3ef4d0fe68354 ""
-  "main.acr" 1669387922 1383 08114e0a0434ef9965e066a708390b59 ""
-  "main.aux" 1669387922 15335 741e8b44b13b31bc0dc109aea5902e13 "pdflatex"
-  "main.bbl" 1669387921 13437 1241f67aefdddafdfb449b0a7168664b "bibtex main"
-  "main.out" 1669387922 3528 ae7fad4276a4557a015c4ed8c44c2733 "pdflatex"
-  "main.toc" 1669387922 1683 a2064fea4ef716c69c455801dc332f74 "pdflatex"
+  "main.acr" 1669401274 1383 08114e0a0434ef9965e066a708390b59 ""
+  "main.aux" 1669401274 15811 dd91ebab68a5098ec127d2303ee21c10 "pdflatex"
+  "main.bbl" 1669401273 13437 1241f67aefdddafdfb449b0a7168664b "bibtex main"
+  "main.out" 1669401274 4286 bead3cc90d58f1a55799f4fe92c1abaa "pdflatex"
+  "main.toc" 1669401274 1995 f5f62380e7acbe313a4d9fef460649bc "pdflatex"
   (generated)
   "main.acn"
   "main.aux"
