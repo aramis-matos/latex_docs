@@ -61,12 +61,59 @@ Como se puede apreciar en la figuras \ref{fig: char sel}, \ref{fig: game select}
     \item Acciones de la interfaz gráfica de usuario
     \item Iconos
     \item Vistas
-    \item Representaciones visuales de los Objetos
+    \item Representaciones visuales de los objetos
     \item Menú de los Objetos
     \item Ventanas
 \end{itemize}
 
 \textbf{Estructura de la interfaz gráfica de usuario}:
+
+\begin{itemize}
+    \item Los objetos actuales en la aplicación sería en su mayoría los botones, de los cuales los usuarios esperan que su funcionalidad este atada al boton correspondiente a tanto su lugar, como la acción que marca hacer.
+    \item Las acciones que la interfaz gráfica permite para el usuario son:
+    \begin{itemize}
+        \item Presionar los objetos (botones)
+        \item Desplegar la lista de opciones con estos
+        \item Interactuar con ello tanto por entrada de teclado como un objeto apuntador
+        \item Seleccionar sus opciones de la lista proveida en los botones
+        \item Desplegar la pantalla para tanto leer instrucciones y los resultados de las comparaciones
+    \end{itemize}
+    \item Cada botón se representa como una caja rectangular con texto escrito encima del mismo para poder darle un contexto para qué se debe presionar dicha caja.Entre ellos estan nombres, nombres de movidas y el botón de comparación para ver los resultados a base de las selecciones previas.
+    \item Las vistas proveídas al usuario son 3:
+    \begin{itemize}
+        \item La primera y principal vista, selección de personajes
+        \item La vista de instrucciones
+        \item La vista de resultados en base a la selección de objetos
+    \end{itemize}
+    \item Cada objeto es representado con una imagen o representación propia por separado. En el caso de SkyboundDB, se utiliza una imagen del personaje junto al objeto de selección de personaje para que el usuario sepa quién esta escogiendo en tiempo dinámico. En cuestión al botón de comparación, este objeto se representa luego de que se haya presionado, pues es en base a que haya información para poder hacer las comparaciones y luego presentarlas de manera tabulada y con color al usuario. Cada uno de estos esta envuelto en una caja rectangular para distinguirlos.
+    \item Las secciones de selección y de comparación estan divididas en dos menús rectangulares, uno superior y otro inferior. Mientras la opción de comparación no se ha hecho, este entonces es llenado con instrucciones de uso para el usuario, y luego es ocultado para presentar la información pertinente a la comparación.
+    \item Todo se trabaja funcionalmente mediante una sola ventana, la cual es denominada por su titulo en HTML como \textit{SkyboundDB 2.0}.
+\end{itemize}
+
+\begin{center}
+    \begin{figure}[ht!]
+        \centering
+        \includegraphics[height=0.4\textheight]{figures/Character_select_menu-object.png}
+        \caption{Menu de objetos, iconos y representaciones visuales de los objetos del prototipo de selección de personajes}
+        \label{fig: char sel prt}
+    \end{figure}
+    
+    \begin{figure}
+        \centering
+        \includegraphics[height=0.4\textheight]{figures/Instructions_menu-object.png}
+        \caption{Menu de objetos y representaciones visuales de los objetos del prototipo de instrucciones para el usuario}
+        \label{fig: ins prt}
+    \end{figure}
+    
+    \begin{figure}
+        \centering
+        \includegraphics[height=0.4\textheight]{figures/Results_menu-object.png}
+        \caption{Menu de objetos y representaciones visuales de los objetos del prototipo de resultados}
+        \label{fig: rslt prt}
+    \end{figure}  
+\end{center}
+
+\newpage
 
 \section{Prototipo}
 \addcontentsline{toc}{section}{Prototipo}
