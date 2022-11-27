@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1669563506 "main.aux" "main.bbl" "main" 1669563508
+["bibtex main"] 1669563506 "main.aux" "main.bbl" "main" 1669566329
   "/usr/share/texlive/texmf-dist/bibtex/bst/apacite/apacite.bst" 1374530685 141073 9d7b79dbf9d91133318126032cff8c27 ""
   "References.bib" 1669383647 23049 01c6264d83e50c6d8483c8528994020a ""
-  "main.aux" 1669563508 16922 53d3f4ae3bf72c07655ee50ca193b760 "pdflatex"
+  "main.aux" 1669566329 16922 53d3f4ae3bf72c07655ee50ca193b760 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1669563506 "/home/ccyanide/Downloads/comp4998 proyect/latex_docs/main.tex" "main.pdf" "main" 1669563508
+["pdflatex"] 1669566327 "/home/ccyanide/Downloads/comp4998 proyect/latex_docs/main.tex" "main.pdf" "main" 1669566329
   "/home/ccyanide/.texlive2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1665235242 2727063 2f877110c23990c5d12569af9e666dfd ""
   "/home/ccyanide/Downloads/comp4998 proyect/latex_docs/main.tex" 1669378276 2218 2b697e88caa7b29b0d61e46e660f6227 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
@@ -205,17 +205,17 @@
   "figures/SUC2.png" 1669381739 110397 3dfd21fe26ddc8b88c38ac86f34c4592 ""
   "figures/abstract-design.jpg" 1666959056 99744 22763e9e1433421203ce1be050bd2ecf ""
   "figures/char_sel.png" 1669381514 284616 71a7d7dbe6d699d687841bd61f08601e ""
-  "figures/compare_options.png" 1669381513 202167 0f176cdbc7cd257bb91be63de0f0d27a ""
+  "figures/compare_options.png" 1669566192 196028 5134d3fee4d731d81cbad7ad0dbc1ce1 ""
   "figures/comparison.png" 1669381515 58366 f91bb43806b9844f250b724ccfa9daf1 ""
-  "figures/game_options.png" 1669381516 141616 cd9f55998b19468204cc649c979a5c57 ""
+  "figures/game_options.png" 1669566195 114587 397649bd2139130bcc8aa692c55d0d60 ""
   "figures/guilty.jpg" 1666960589 536230 dc43f19e219a29c07234e2271c44979d ""
   "figures/melty.jpg" 1666960828 644905 39c3e442be375e332d72b1cc59d8c302 ""
   "figures/pallete_updated.png" 1667398562 7789 1000d8744d463aff96d3ef4d0fe68354 ""
-  "main.acr" 1669563508 1383 08114e0a0434ef9965e066a708390b59 ""
-  "main.aux" 1669563508 16922 53d3f4ae3bf72c07655ee50ca193b760 "pdflatex"
+  "main.acr" 1669566329 1383 08114e0a0434ef9965e066a708390b59 ""
+  "main.aux" 1669566329 16922 53d3f4ae3bf72c07655ee50ca193b760 "pdflatex"
   "main.bbl" 1669563506 13437 1241f67aefdddafdfb449b0a7168664b "bibtex main"
-  "main.out" 1669563508 4286 bead3cc90d58f1a55799f4fe92c1abaa "pdflatex"
-  "main.toc" 1669563508 1995 742804606f002ac10705968f9b79edff "pdflatex"
+  "main.out" 1669566329 4286 bead3cc90d58f1a55799f4fe92c1abaa "pdflatex"
+  "main.toc" 1669566329 1995 742804606f002ac10705968f9b79edff "pdflatex"
   (generated)
   "main.acn"
   "main.aux"
