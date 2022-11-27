@@ -22,7 +22,7 @@
 \contentsline {chapter}{Diseño de la interfaz gráfica de usuario}{19}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Diseño de la interfaz gráfica de usuario}{19}{section.5.1}%
 \contentsline {section}{Diseño de la interfaz gráfica de usuario}{19}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Prototipo}{26}{section.5.2}%
-\contentsline {section}{Prototipo}{26}{section.5.2}%
-\contentsline {chapter}{Acrónimos}{27}{section*.2}%
-\contentsline {chapter}{Referencias Bibliográficas}{28}{chapter*.4}%
+\contentsline {section}{\numberline {5.2}Prototipo}{24}{section.5.2}%
+\contentsline {section}{Prototipo}{24}{section.5.2}%
+\contentsline {chapter}{Acrónimos}{26}{section*.2}%
+\contentsline {chapter}{Referencias Bibliográficas}{27}{chapter*.4}%
