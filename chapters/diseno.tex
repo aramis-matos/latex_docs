@@ -2,7 +2,7 @@
 \addcontentsline{toc}{section}{Diseño de la interfaz gráfica de usuario}
 \textbf{Análisis de aplicaciones similares}: No es posible mejorar un producto sin analizarlo y criticarlo. Por ende, es necesario comparar el diseño del prototipo del interfaz gráfica de usuario para así mejorarlo en términos de usabilidad y comodidad.
 
-Las aplicaciones que se van a utilizar como objectos de comparación son las mismas que se utilizaron los antecedentes, \textit{FAT - Frame Data!} y \textit{Smash Ultimate Calculator}.
+Las aplicaciones que se van a utilizar como objectos de comparación son las mismas que se utilizaron en los antecedentes, \textit{FAT - Frame Data!} y \textit{Smash Ultimate Calculator}.
 
 Como se puede apreciar en la figuras \ref{fig: char sel}, \ref{fig: game select}, \ref{fig: compare options} y \ref{fig: comparison}, \textit{FAT - FRAME DATA!} parece utilizar diseño material \cite{noauthor_designing_nodate}. Mas aún, en la figura \ref{fig: char sel}, se utilizan las siluetas de los personajes con el color predominante del personaje como color de fondo. Esto ayuda reducir la carga de memoria de los usuarios mientras que no sacrifica mucho en términos de usabilidad. Es una buena decisión de diseño y es algo que falta en la interfaz gráfica de usuario de SkyboundDB 2.0. Al utilizar principios del diseño material, \textit{FAT - Frame Data!} es inmediatamente familiar a usuarios de aplicaciones de \textit{Google} y \textit{Android}. El uso de diseño material fue una buena decisión de diseño ya que facilita la adaptación de los usuarios a una aplicación nueva porque comparte principios y estándares de diseño.
 
@@ -36,7 +36,7 @@ Como se puede apreciar en la figuras \ref{fig: char sel}, \ref{fig: game select}
 
 \newpage
 
-\textit{Smash Ultimate Calculator} no parece utilizar un estándar de diseño al igual que SkyboundDB 2.0. Esto crea confusión al utilizar la aplicación por primera vez. Como se puede ver en las figuras \ref{fig: SUC main menu} y \ref{fig: SUC additional options}, a pesar que las areas que contienen información están agrupadas lógicamente, hay demasiados elementos y opciones que se presentan al usuario. Esto incurre una gran carga de memoria e intimida al usuario novato. También es difícil ver que cambios ocurren al oprimir opciones. A pesar de estas decisiones de diseño problemáticas, la paleta de colores es pasable, sino un poco deprimente y sin vida.
+\textit{Smash Ultimate Calculator} no parece utilizar un estándar de diseño al igual que SkyboundDB 2.0. Esto crea confusión al utilizar la aplicación por primera vez. Como se puede ver en las figuras \ref{fig: SUC main menu} y \ref{fig: SUC additional options}, a pesar que las áreas que contienen información están agrupadas lógicamente, hay demasiados elementos y opciones que se presentan al usuario. Esto incurre una gran carga de memoria e intimida al usuario novato. También es difícil ver que cambios ocurren al oprimir opciones. A pesar de estas decisiones de diseño problemáticas, la paleta de colores es pasable, sino un poco deprimente y sin vida.
 
 \begin{figure}[ht!]
     \centering
@@ -54,7 +54,7 @@ Como se puede apreciar en la figuras \ref{fig: char sel}, \ref{fig: game select}
 
 \newpage
 
-\textbf{Definición de Aspectos de la GUI}: 
+\textbf{Definición de Aspectos de la IGU}: 
 
 % \begin{itemize}
 %     \item Objetos
@@ -74,11 +74,11 @@ Como se puede apreciar en la figuras \ref{fig: char sel}, \ref{fig: game select}
     \begin{itemize}
         \item Presionar los objetos (botones)
         \item Desplegar la lista de opciones con estos
-        \item Interactuar con ello tanto por entrada de teclado como un objeto apuntador
+        \item Interactuar con ello tanto por entrada de teclado como un dispositivo apuntador
         \item Seleccionar sus opciones de la lista proveída en los botones
         \item Desplegar la pantalla para tanto leer instrucciones y los resultados de las comparaciones
     \end{itemize}
-    \item Cada botón se representa como una caja rectangular con texto escrito encima del mismo para poder darle un contexto para qué se debe presionar dicha caja. Entre ellos estan nombres, nombres de movidas y el botón de comparación para ver los resultados a base de las selecciones previas.
+    \item Cada botón se representa como una caja rectangular con texto escrito encima del mismo. Esto se hace con el propósito de darle un contexto para qué se debe presionar dicha caja. Entre ellos, nombres, nombres de movidas y el botón de comparación para ver los resultados a base de las selecciones previas.
     \item Las vistas proveídas al usuario son 3:
     \begin{itemize}
         \item La primera y principal vista, selección de personajes
@@ -86,7 +86,7 @@ Como se puede apreciar en la figuras \ref{fig: char sel}, \ref{fig: game select}
         \item La vista de resultados en base a la selección de objetos
     \end{itemize}
     \item Cada objeto es representado con una imagen o representación propia por separado. En el caso de SkyboundDB, se utiliza una imagen del personaje junto al objeto de selección de personaje para que el usuario sepa quién esta escogiendo en tiempo dinámico. En cuestión al botón de comparación, este objeto se representa luego de que se haya presionado, pues es en base a que haya información para poder hacer las comparaciones y luego presentarlas de manera tabulada y con color al usuario. Cada uno de estos están envueltos en una caja rectangular para distinguirlos.
-    \item Las secciones de selección y de comparación estan divididas en dos menús rectangulares, uno superior y otro inferior. Mientras la opción de comparación no se ha hecho, este entonces es llenado con instrucciones de uso para el usuario, y luego es ocultado para presentar la información pertinente a la comparación.
+    \item Las secciones de selección y de comparación están divididas en dos menús rectangulares, uno superior y otro inferior. Mientras la opción de comparación no se ha hecho, este entonces es llenado con instrucciones de uso para el usuario, y luego es ocultado para presentar la información pertinente a la comparación.
     \item Todo se trabaja funcionalmente mediante una sola ventana, la cual es denominada por su titulo en HTML como \textit{SkyboundDB 2.0}.
 \end{itemize}
 
@@ -112,14 +112,14 @@ Como se puede apreciar en la figuras \ref{fig: char sel}, \ref{fig: game select}
     \begin{figure}
         \centering
         \includegraphics[height=0.4\textheight]{figures/Instructions_menu-object.png}
-        \caption{Menú de objetos y representaciones visuales de los objetos del prototipo de instrucciones para el usuario}
+        \caption{Menú de instrucciones para el usuario}
         \label{fig: ins prt}
     \end{figure}
     
     \begin{figure}
         \centering
         \includegraphics[height=0.4\textheight]{figures/Results_menu-object.png}
-        \caption{Menú de objetos y representaciones visuales de los objetos del prototipo de resultados}
+        \caption{Menú de resultados}
         \label{fig: rslt prt}
     \end{figure}  
 \end{center}
