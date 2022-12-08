@@ -97,7 +97,16 @@ Como se puede apreciar en la figuras \ref{fig: char sel}, \ref{fig: game select}
 
 \href{https://aramis-matos.github.io/skyboundDB2.0/}{SkyboundDB 2.0}
 
+En esta sección, se presenta tanto el esquema inicial del prototipo y el prototipo de la aplicación web:
+
 \begin{center}
+    \begin{figure}[ht!]
+        \centering
+        \includegraphics[height=0.6\textheight]{figures/SkyboundDB2 WireFrame.png}
+        \caption{Esquema o \textit{Wireframe} del prototipo para SkyboundDB 2.0}
+        \label{fig: wire}
+    \end{figure}
+
     \begin{figure}[ht!]
         \centering
         \includegraphics[height=0.4\textheight]{figures/Character_select_menu-object.png}
@@ -106,6 +115,7 @@ Como se puede apreciar en la figuras \ref{fig: char sel}, \ref{fig: game select}
     \end{figure}
 \end{center}
   
+\newpage
     Aquí tenemos la representación visual de los objetos del prototipo de selección de personajes, donde podemos ver que presentamos a tanto el personaje encima del botón de selección de personaje (representado por un icono como un rectángulo), al igual que la selección de movida presentado de la misma manera. Por ello, se decide presentar de lado a cada uno (como un espejo) las opciones del usuario, simulando la metáfora mencionada de cómo la selección de personajes se lleva a cabo en un juego de pelea tradicional, al igual que distinguir claramente entre quien \textbf{hace} la movida seleccionada y quien \textbf{responde} la movida con su  opción para contraatacar. Por último, vemos la opción de comparación presentado de manera consistente con el resto de los iconos para los objetos de selección (como una caja rectangular) fuera y debajo de la sección superior de menú de selección de personaje y movida.
 
 \begin{center}
@@ -131,4 +141,6 @@ Como se puede apreciar en la figuras \ref{fig: char sel}, \ref{fig: game select}
 
 \newpage
     Se le demuestra al usuario el menú de resultado en la parte inferior del programa, reemplazando el espacio previo de las instrucciones para el programa. Se implementa nuevamente el uso de un rectángulo aislando la información, pero esta vez se provee maneras de mantener la información fácil de leer y compactada. Se producen los resultados en base a la selección de los objetos previos de personaje y de movida con colores de cada movida demostradas de manera similar que en el juego, como asi los resultados de los cálculos. En este  prototipo, se enseña un ejemplo hipotético de Gran Vs Djeeta, todas las movidas de Gran contra-atacadas con el c.L de Djeeta. Por último, se le presenta el usuario la opción de \textit{Reset} en vez de \textit{Compare} como el icono que se reemplaza en la sección superior del programa, pues se tiene que refrescar el menú inferior nuevamente para tomar nueva información y ejecutar otra comparación.
+
+    El prototipo de SkyboundDB fue programado mediante el uso de los lenguajes HTML, CSS y JavaScript(JS) para manejar listas y estados y visibilidad de objetos (Figuras 5.8 - 5.10). Se pudo dibujar un esquema del prototipo mencionado previamente gracias a la herramienta de dibujo de graficos en linea, Draw.io (Figura 5.7)
 
